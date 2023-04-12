@@ -1,0 +1,24 @@
+[git_status]
+ahead="ahead"
+behind="behind"
+untracked="untracked"
+modified="modified"
+staged="staged"
+renamed="renamed"
+deleted="deleted"
+
+format = """
+$all\
+$fill\
+$time\
+$line_break\
+$character\
+"""
+
+[fill]
+symbol = " "
+
+[time]
+disabled = false
+style = "bold bright-black"
+format = "[$time]($style) "
